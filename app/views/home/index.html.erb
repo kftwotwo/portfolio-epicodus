@@ -1,7 +1,13 @@
-<h1>Hello</h1>
+<div class="top">
+  <%= image_tag('https://s3.amazonaws.com/american-rivers-website/wp-content/uploads/2016/02/24215058/East-Rosebud-Creek-MT-credit-Michael-Fiebig-header.jpg', class: 'back-img') %>
 
+  <div class="profile-img">
+    <%= image_tag('https://dl.dropboxusercontent.com/s/f8kkf7sqlh18n1t/20941128.png?dl=0', class: '') %>
+  </div>
+</div>
 
-<% @repos.each do |repo| %>
+<ul class="pad">
+  <% @repos.each do |repo| %>
   <li><%=link_to repo['name'], repo['html_url'] %> <%= repo['language'] %></li>
-
-<% end %>
+  <% end %>
+</ul>

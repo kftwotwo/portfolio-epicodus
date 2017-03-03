@@ -1,0 +1,19 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.top {
+  padding-bottom: 7%;
+  .back-img {
+    width: 100%;
+    max-height: 60vh;
+  }
+
+  .profile-img img {
+    display: block;
+    margin: -6.5% auto;
+    width: 15%;
+    border-radius: 50%;
+    border: 8px solid white;
+  }
+}
