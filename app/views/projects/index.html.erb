@@ -1,0 +1,10 @@
+<div class="left">
+  <%# image_tag('https://static.wixstatic.com/media/6ceb8e_394cd7f7b87343cf8c1bd096f0c92f1e.jpg', class: 'vertical') %>
+</div>
+<div class="right">
+  <ul class="pad">
+    <% @repos.each do |repo| %>
+    <li><%=link_to repo['name'], repo['html_url'] %> <%= repo['language'] %></li>
+    <% end %>
+  </ul>
+</div>

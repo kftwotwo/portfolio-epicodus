@@ -19,7 +19,15 @@
 }
 
 .about-me {
-  h3 {
+  padding-bottom: 5%;
+  h3{
     text-align: center;
   }
+  small {
+    text-align: center;
+  }
+}
+
+.too-big {
+  max-width: 100%;
 }
