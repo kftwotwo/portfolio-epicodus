@@ -20,6 +20,11 @@ gem 'materialize-sass'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'dotenv-rails'
+  gem 'simplecov'
+  gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock'
+  gem "capybara"
 end
 
 group :development do
