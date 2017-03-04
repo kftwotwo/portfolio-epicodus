@@ -9,12 +9,10 @@
   </head>
 
   <body>
-    <%= yield %>
-    <div class="navbar-fixed">
-      <a id="sticky" data-activates="slide-out" class="button-collapse sticky"><i class="fa fa-3x fa-bars" aria-hidden="true"></i></a>
-    </div>
-    <%= render('layouts/nav') %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+    <%= yield %>
+      <a id="sticky" data-activates="slide-out" class="button-collapse sticky"><i class="fa fa-3x fa-bars" aria-hidden="true"></i></a>
+    <%= render('layouts/nav') %>
   </body>
 </html>

@@ -1,0 +1,55 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+.spacing {
+  float: right;
+  clear: right;
+  height: 22px;
+}
+
+.spacing:nth-child(1) { width: 505px; }
+.spacing:nth-child(2) { width: 483px; }
+.spacing:nth-child(3) { width: 461px; }
+.spacing:nth-child(4) { width: 439px; }
+.spacing:nth-child(5) { width: 417px; }
+.spacing:nth-child(6) { width: 395px; }
+.spacing:nth-child(7) { width: 373px; }
+.spacing:nth-child(8) { width: 351px; }
+.spacing:nth-child(9) { width: 329px; }
+.spacing:nth-child(10) { width: 307px; }
+.spacing:nth-child(11)  {width: 285px; }
+.spacing:nth-child(12)  {width: 263px; }
+.spacing:nth-child(13)  {width: 241px; }
+.spacing:nth-child(14)  {width: 219px; }
+.spacing:nth-child(15)  {width: 200px; }
+.spacing:nth-child(16)  {width: 179px; }
+.spacing:nth-child(17)  {width: 120px; }
+.spacing:nth-child(18)  {width: 110px; }
+.spacing:nth-child(19)  {width: 100px; }
+.spacing:nth-child(20)  {width: 90px; }
+.spacing:nth-child(21)  {width: 50px; }
+.spacing:nth-child(22)  {width: 40px; }
+
+#container {
+  p {
+    line-height: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+  }
+}
+
+.cut {
+  position: absolute;
+  width: 70vh;
+  height: 140vh;
+  top: -370px; right: -87px;
+  transform: rotate(-45deg);
+  z-index: -1;
+  border: grey solid 15px;
+}
+
+body {
+  overflow-x:hidden;
+}
