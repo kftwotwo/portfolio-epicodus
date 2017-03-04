@@ -9,8 +9,10 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <div class="center">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
     <%= yield %>
       <a id="sticky" data-activates="slide-out" class="button-collapse sticky"><i class="fa fa-3x fa-bars" aria-hidden="true"></i></a>
     <%= render('layouts/nav') %>
